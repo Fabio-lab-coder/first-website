@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500');
+
+* {
+    margin: 0;    
+}
+
+html {
+     background-color: darkgoldenrod;
+     background-image: url("images/3D-graphics_Golden_noise_007179_22.jpg");
+     background-size: cover;    
+     background-attachment: fixed;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto mono', 'monospace';    
+}
+
+header {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    padding: 20px;
+}
+
+
+nav a:visited,
+nav a:link {
+    color: #fffeb0;
+    text-decoration: none;    
+}
+
+.contact a{
+    color: #353412;
+}
+
+nav > ul {
+    display: inline;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+.main {    
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;    
+}
+
+#interest p {
+    color: #070707;
+    
+}
+
+.box {
+    width: 600;
+    border: 5px solid rgb(40, 43, 40);
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255, 0.3);
+    
+}
+
+footer {
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+aside {    
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    color: #fffeb0;
+    
+}
+
+.aboutme {
+    border-radius: 50%;
+    opacity: 0.5;    
+}
+
+.sub-title {
+    background-color: rgb(255, 255, 255, 0.3); /*opacicty */
+    font-size: 2em;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;    
+    align-items:flex-start;    
+} 
+
+.gallery {
+    padding: 5em;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px;    
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;    
+    padding-top: 50px;
+    color: #fffeb0;
+    letter-spacing: 3px;    
+}
+
+h2 {
+    color: #fffeb0;
+    font-size: 40px;
+}
